@@ -1,0 +1,30 @@
+.login{
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 5%;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  color: red;
+}
+img{
+  width:150px;
+}
+
+.email {
+  border-radius: 3px;
+  border: 1px solid rgb(36, 142, 41);
+}
+.password {
+  margin-top: 3px;
+  border-radius: 3px;
+  border: 1px solid rgb(36, 142, 41);
+}
+
+.btn_Entrar {
+  cursor: pointer;
+  margin-top: 3px;
+  border-radius: 3px;
+  background-color: rgb(36, 142, 41);
+}
