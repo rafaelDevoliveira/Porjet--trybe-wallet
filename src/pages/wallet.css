@@ -1,0 +1,14 @@
+*{
+  background-color: rgb(75, 78, 75)
+}
+hr{
+  border-color: #7bac3b; 
+ }
+ .container-gastos{
+   display: flex;   
+   justify-content: space-around;
+   align-items: center;
+ }
+ .user{
+  font-family: 'Style Script', cursive;
+ }

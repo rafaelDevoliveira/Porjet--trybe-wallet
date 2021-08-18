@@ -1,30 +1,62 @@
-.login{
+.container-main{
+  background-color:rgb(75, 78, 75);
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  width: 98%;
+  height: 98%;  
+  border: 1px solid rgb(36, 142, 41);
+  margin:auto;
+  border-radius:2%;
+  margin-top: 10px;
+  
+}
+.login {
+  border: 5px solid rgb(36, 142, 41);
+  background-color: white;
   margin: auto;
   margin-top: 10%;
   border-radius: 5%;
   text-align: center;
   width: 300px;
   height: 300px;
-  border: 2px solid black;
-  color: red;
+  margin-bottom: 15%;
 }
-img{
-  width:150px;
+img {
+  width: 100px;
+}
+h1{
+  font-size:60px;
+  margin-top:1px;
+  margin-bottom: 1px;
+  background-color:white;
+  font-family: 'Style Script', cursive;
 }
 
-.email {
-  border-radius: 3px;
-  border: 1px solid rgb(36, 142, 41);
-}
-.password {
+.input-email {
+  background-color: white;
+  width: 175px;
+  border: 2px solid rgb(36, 142, 41);
+  box-shadow: 0px 0px 20px rgb(75, 78, 75);
   margin-top: 3px;
-  border-radius: 3px;
-  border: 1px solid rgb(36, 142, 41);
+  border-radius: 3px;  
+}
+.input-email::placeholder {
+  color: black;
+}
+.input-email::placeholder-shown{
+
+}
+
+.form {
+  background-color: rgb(255, 255, 255);
 }
 
 .btn_Entrar {
+  border: 3px solid rgb(36, 142, 41);
+  box-shadow: 0px 0px 20px rgb(75, 76, 78);
+  width: 185px;
   cursor: pointer;
-  margin-top: 3px;
+  margin-top: 20px;
   border-radius: 3px;
   background-color: rgb(36, 142, 41);
+  /* color: black; */
 }

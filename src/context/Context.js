@@ -1,16 +1,25 @@
 import { createContext, useState } from "react";
 
-const context = createContext()
+const context = createContext();
 
-function Provider({children}){
-  const [idade, setIdade] = useState(0);
+function Provider({ children }) {
+  const [email, setEmail] = useState("");
+  const [password, setPassword]= useState('');
+  const [result, setResult] = useState("");
+  const [btn, setBtn]= useState(true);
+  const [despesasTotais, setDespesasTotais]= useState(0)
 
-  return(
-    <context.Provider value={ {idade} }>
+  function clicado() {
+    setResult(email);
+    setEmail("")    
+  }
+  
+
+  return (
+    <context.Provider value={{  result, email, setEmail, clicado, btn, setBtn, password, setPassword,despesasTotais, setDespesasTotais }}>
       {children}
     </context.Provider>
-  )
-
+  );
 }
 
-export {context, Provider};
+export { context, Provider };
