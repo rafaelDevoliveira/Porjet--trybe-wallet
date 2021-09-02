@@ -18,7 +18,7 @@ export default function Login() {
   }, [email, password,setBtn]);
 
   return (
-    <div className="container-main">
+    <form className="container-main">
       <div className="login">
         <img
           src="https://www.acate.com.br/wp-content/uploads/2020/01/trybe.png"
@@ -55,6 +55,6 @@ export default function Login() {
           </button>
         </Link>
       </div>
-    </div>
+    </form>
   );
 }

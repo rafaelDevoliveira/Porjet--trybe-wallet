@@ -42,9 +42,7 @@ h1{
 .input-email::placeholder {
   color: black;
 }
-.input-email::placeholder-shown{
 
-}
 
 .form {
   background-color: rgb(255, 255, 255);

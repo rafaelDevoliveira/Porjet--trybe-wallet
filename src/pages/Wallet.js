@@ -8,7 +8,7 @@ export default function Wallet() {
   return (
     <div id="container-boas-vindas">
       <div className="container-gastos">
-        <h2>Seja bem Vindo</h2>
+        <h4>Bem Vindo</h4>
         <p data-testid="email-field">{result}</p>
         <p>Total de gastos R$ {Math.round(despesasTotais).toFixed(2)} BRL</p>
       </div>
@@ -24,13 +24,13 @@ export default function Wallet() {
               Descrição:
               <input className="test-input" type="text" name="Descrição" />
             </label>
-            <label className="label">
+            <label className="label-select">
               Moeda:
               <select className="test-input" >
                 <option>USD</option>
               </select>
             </label>
-            <label className="label">
+            <label className="label-select">
               Método de pagamento:
               <select className="test-input">
                 <option>Dinheiro</option>
