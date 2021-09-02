@@ -1,6 +1,6 @@
 {
   "name": "porjet--trybe-wallet",
-  "homepage":"./",
+  "homepage":"Porjet--trybe-wallet/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
