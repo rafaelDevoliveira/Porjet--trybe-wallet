@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Porjet--trybe-wallet/static/css/main.e55a6b0c.chunk.css",
+    "main.js": "/Porjet--trybe-wallet/static/js/main.b729c31c.chunk.js",
+    "main.js.map": "/Porjet--trybe-wallet/static/js/main.b729c31c.chunk.js.map",
+    "runtime-main.js": "/Porjet--trybe-wallet/static/js/runtime-main.d9cd0036.js",
+    "runtime-main.js.map": "/Porjet--trybe-wallet/static/js/runtime-main.d9cd0036.js.map",
+    "static/js/2.bd3aba70.chunk.js": "/Porjet--trybe-wallet/static/js/2.bd3aba70.chunk.js",
+    "static/js/2.bd3aba70.chunk.js.map": "/Porjet--trybe-wallet/static/js/2.bd3aba70.chunk.js.map",
+    "index.html": "/Porjet--trybe-wallet/index.html",
+    "static/css/main.e55a6b0c.chunk.css.map": "/Porjet--trybe-wallet/static/css/main.e55a6b0c.chunk.css.map",
+    "static/js/2.bd3aba70.chunk.js.LICENSE.txt": "/Porjet--trybe-wallet/static/js/2.bd3aba70.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9cd0036.js",
+    "static/js/2.bd3aba70.chunk.js",
+    "static/css/main.e55a6b0c.chunk.css",
+    "static/js/main.b729c31c.chunk.js"
+  ]
+}
